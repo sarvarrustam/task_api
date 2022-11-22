@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:task_api/pages/home_page/home_screen.dart';
+import 'package:task_api/home_page/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

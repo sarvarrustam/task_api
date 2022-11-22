@@ -225,8 +225,8 @@ class Position {
   double? longitude;
 
   factory Position.fromJson(Map<String, dynamic> json) => Position(
-        latitude: json["latitude"].toDouble(),
-        longitude: json["longitude"].toDouble(),
+        latitude: json["latitude"],
+        longitude: json["longitude"],
       );
 
   Map<String, dynamic> toJson() => {
